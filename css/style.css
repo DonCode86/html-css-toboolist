@@ -23,6 +23,7 @@ h1 {
 span {
     font-weight: bold;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .logo, h1 {
@@ -64,13 +65,13 @@ span {
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-top: 10px solid #555;
-    margin-right: 5px;
     display: inline-block;
 }
 
 .task-title {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
+    margin-left: 0;
 }
 
 .tag {
@@ -78,7 +79,7 @@ span {
     color: white;
     border-radius: 13px;
     padding: 8px 10px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .tag-blue {
     background-color: rgb(71, 173, 241);
