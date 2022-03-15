@@ -36,7 +36,7 @@ span {
 }
 .tasks-container, .tasks-manager {
     width: 80%;
-    margin: 5px auto;
+    margin: 3px auto;
     background-color: white;
     padding-left: 50px;
 }
