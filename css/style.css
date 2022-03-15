@@ -12,6 +12,7 @@ body {
 header {
     padding: 20px;
     background-color: white;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -19,6 +20,96 @@ h1 {
     font-size: 45px;
 }
 
+span {
+    font-weight: 600;  
+}
+
 .logo, h1 {
     vertical-align: middle;
+}
+
+.tasks-manager {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.tasks-container, .tasks-manager {
+    width: 80%;
+    margin: 5px auto;
+    background-color: white;
+    padding-left: 50px;
+}
+
+/* .tasks-container {
+    padding-top: 30px;
+} */
+
+.add-button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: small;
+}
+
+.button-blue {
+    background-color: rgb(71, 173, 241);
+    color: white;
+}
+
+.add-section {
+    color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #555;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.task-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tag {
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.tag-blue {
+    background-color: rgb(71, 173, 241);
+}
+
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: small;
+    color: green;
+    line-height: 20px;
+    text-align: center;
+}
+
+.task {
+    margin-top: 10px;
+}
+
+.task-list {
+    padding-top: 40px;
+}
+
+.tag-green {
+    background-color: rgb(100, 192, 169);
+}
+
+.tag-violet {
+    background-color: rgb(156, 114, 228);
 }
