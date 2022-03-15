@@ -79,8 +79,9 @@ span {
 .tag {
     display: inline-block;
     color: white;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 11px;
+    padding: 8px;
+    font-size: 10px;
 }
 .tag-blue {
     background-color: rgb(71, 173, 241);
@@ -98,12 +99,17 @@ span {
     text-align: center;
 }
 
+.circle-red {
+    color: red;
+}
+
 .task {
-    margin-top: 10px;
+    padding-bottom: 25px;
 }
 
 .task-list {
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 
 .tag-green {
@@ -112,4 +118,16 @@ span {
 
 .tag-violet {
     background-color: rgb(156, 114, 228);
+}
+
+.tag-orange {
+    background-color: rgb(242, 158, 51);
+}
+
+.tag-purple {
+    background-color: rgb(216, 99, 161);
+}
+
+.tag-lightgreen {
+    background-color: rgb(176, 201, 38);
 }
