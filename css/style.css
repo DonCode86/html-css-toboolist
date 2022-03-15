@@ -18,7 +18,6 @@ header {
 h1 {
     display: inline-block;
     font-size: 50px;
-    font-weight: 700;
 }
 
 span {
@@ -35,7 +34,7 @@ span {
     margin-bottom: 50px;
 }
 .tasks-container, .tasks-manager {
-    width: 80%;
+    width: 70%;
     margin: 3px auto;
     background-color: white;
     padding-left: 50px;
@@ -106,7 +105,7 @@ span {
 }
 
 .task-list {
-    padding-top: 30px;
+    padding-top: 25px;
     margin-bottom: 10px;
 }
 
