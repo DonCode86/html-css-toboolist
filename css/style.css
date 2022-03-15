@@ -17,11 +17,13 @@ header {
 
 h1 {
     display: inline-block;
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 span {
-    font-weight: 600;  
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .logo, h1 {
@@ -38,10 +40,6 @@ span {
     background-color: white;
     padding-left: 50px;
 }
-
-/* .tasks-container {
-    padding-top: 30px;
-} */
 
 .add-button {
     display: inline-block;
@@ -79,8 +77,8 @@ span {
 .tag {
     display: inline-block;
     color: white;
-    border-radius: 11px;
-    padding: 8px;
+    border-radius: 13px;
+    padding: 8px 10px;
     font-size: 10px;
 }
 .tag-blue {
@@ -94,7 +92,7 @@ span {
     border: 1px solid;
     border-radius: 50%;
     font-size: small;
-    color: green;
+    color: rgb(132, 208, 192);
     line-height: 20px;
     text-align: center;
 }
